@@ -1,0 +1,18 @@
+[submodule "src/github.com/howeyc/fsnotify"]
+	path = src/github.com/howeyc/fsnotify
+	url = https://github.com/howeyc/fsnotify
+[submodule "src/github.com/robfig/config"]
+	path = src/github.com/robfig/config
+	url = https://github.com/robfig/config
+[submodule "src/github.com/robfig/pathtree"]
+	path = src/github.com/robfig/pathtree
+	url = https://github.com/robfig/pathtree
+[submodule "src/github.com/robfig/revel"]
+	path = src/github.com/robfig/revel
+	url = https://github.com/robfig/revel
+[submodule "src/github.com/streadway/simpleuuid"]
+	path = src/github.com/streadway/simpleuuid
+	url = https://github.com/streadway/simpleuuid
+[submodule "src/code.google.com/p/go.net"]
+	path = src/code.google.com/p/go.net
+	url = https://github.com/iyf/go.net.git
