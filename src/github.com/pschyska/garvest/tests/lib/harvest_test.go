@@ -1,16 +1,19 @@
-package lib
+package harvest
 
 import (
+	"log"
 	"fmt"
-	"github.com/pschyska/garvest/app/lib"
+	"github.com/pschyska/garvest/app/lib/harvest"
 	"testing"
 )
 
 func TestConnect(t *testing.T) {
-	harvest := lib.Harvest{}
-	resp, err := harvest.Connect()
+	h := harvest.New()
+	resp, err := h.Connect()
 	if err != nil {
+		log.Fatal(err)
 		t.Fail()
 	}
-	fmt.Println("%v\n", resp)
+	fmt.Printf("%s\n", resp)
 }
+
